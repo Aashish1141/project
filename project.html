@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <style>
+    .parent {
+      display: flex;
+      width: 100%;
+      height: 1.5cm;
+      background-color: grey;
+    }
+    .heading {
+      margin-left: 0cm;
+      margin-top: .5cm;
+    }
+    .logo {
+        position:absolute;
+        top: -2.0%;
+        left:39%;
+    }
+    .image{
+        margin: 10px;
+    }
+    .input{
+        margin-left: 6.5cm;
+        height: 0.29cm;
+        width: 3cm;
+        margin-top:0.5cm ;
+    }
+    .button{
+        position: absolute;
+        top: 0.7cm;
+        left: 14cm;
+        height: 0.45cm;
+        width: 3cm;
+        
+    }
+    .bell{
+        margin-top: -0.9cm;
+        margin-left: 19.3cm;
+    }
+    .moreoptions{
+        margin-top: -0.51cm;
+        margin-left: 20.3cm;
+    }
+    .circle{
+        
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background:whitesmoke;
+      margin-left: 8.65cm;
+      margin-top: -1.07cm;
+    
+    }.searchbar{
+        position: absolute;
+        border:1px solid black;
+        margin-top: 1cm;
+        margin-left: 6cm;
+        width: 4cm;
+        height: 16px;
+    }
+    .search{
+        margin-left: 87px;
+    }
+    .location{
+        
+        border:1px solid black;
+        margin-top: 1cm;
+        margin-left: 433px;
+        width: 4cm;
+        height: 16px;
+    }
+    .loco{
+        height: 14px;
+        position:absolute;
+        margin-left: 86px;
+        margin-top: 1px;
+    }
+    .list{
+        
+    margin-left: -24px;
+        margin-top: 129px;
+        height: 6cm;
+        width: 5cm;
+    }
+    .games{
+    margin-left: 89px;
+    margin-top: -6.59cm;
+    height: 6cm;
+    width: 5cm;
+    }
+    .rightlist{
+    margin-left: 18.4cm;
+    margin-top: -6.56cm;
+    height: 3cm;
+    width: 4cm;
+    }
+    .rightgames{
+        position: absolute;
+    margin-left: 15.4cm;
+    margin-top: -6.56cm;
+    height: 3cm;
+    width: 4cm;
+    }
+    .photo{
+    display: flex;
+    position: absolute;
+    height: 5cm;
+    width: 9.5cm;
+    margin-left: 6cm;
+    margin-top: -6.2cm;
+   
+    }
+.photo2{
+    display: flex;
+    position: absolute;
+    height: 5cm;
+    width: 9.5cm; 
+    margin-left: 6cm;
+    margin-top: -4.5cm;
+    
+}
+.photo3{
+    display: flex;
+    position: absolute;
+    height: 5cm;
+    width: 9.5cm; 
+    margin-left: 6cm;
+    margin-top: -2.8cm;
+
+}
+    .item{
+        
+        margin:1px;
+        border: 1px solid black;
+        width: 1.5cm;
+        height: 1.5cm;
+    }
+    .footer{
+        height: 3cm;
+        width: 33.33%;
+        
+    }
+    .trying{
+        font-size:11px;
+    }
+    .footer2{
+        
+        height: 3cm;
+    width: 33.33%;
+    
+    margin-left: 34%;
+    margin-top: -115px;
+    }
+    .footer3{
+        height: 3cm;
+    width: 33.33%;
+    
+    margin-left: 68%;
+    margin-top: -115px;
+    }
+
+    .devil{
+        
+        height: 3cm;
+        width: 20%;
+    }
+    .last{
+        display: flex;
+    }
+   
+  
+  </style >
+  <body background="">
+    
+    <div class="parent">
+        <svg class="image"
+        xmlns="http://www.w3.org/2000/svg"
+        width="35"
+        height="35"
+        fill="currentColor"
+        class="bi bi-peace"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793zm1 0v6.775l4.79 4.79A7 7 0 0 0 8.5 1.018m4.084 12.273L8.5 9.207v5.775a6.97 6.97 0 0 0 4.084-1.691M7.5 14.982V9.207l-4.084 4.084A6.97 6.97 0 0 0 7.5 14.982M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8"
+        />
+      </svg>
+
+      <div class="heading">Space Window</div>
+      
+        <img class="logo" src="logo-removebg-preview.png" height="80px" width="80px"/>
+        <input class="input" placeholder="search"></input>
+        
+    </div>
+    <button class="button" style="background-color: red; border: 0px; ">create post</button>
+    <div class="bell"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+      </svg></div>
+      <div class="moreoptions"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+      </svg></div>
+      <div class="circle"> </div>
+      <br>
+      <br>
+      <div class="date" style="margin-left: 5%;">January 2024</div>
+      <br>
+      <br>
+      <table border="1" style="font-size: smaller;" >
+        <tr>
+        <th>Sun</th>   
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+    </tr>
+    <tr><td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr><td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+    <tr><td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+    </tr>
+    <tr><td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+    </tr>
+    <tr><td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+    </tr>
+    
+      </table>
+      
+      <table border="1" style="font-size: smaller; margin-left: 76%; margin-top: -16.2%;">
+        <tr>
+        <th>Sun</th>   
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+    </tr>
+    <tr><td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr><td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+    <tr><td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+    </tr>
+    <tr><td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+    </tr>
+    <tr><td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+    </tr>
+    
+      </table>
+      <div class="date" style="margin-left: 84%; margin-top: -23%;">January 2024</div>
+      <div class="searchbar">Search <svg class="search" xmlns="http://www.w3.org/2000/svg" width="16" height="15" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+      </svg></div>
+
+      <div class="location">location <svg class="loco" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg></div>
+      <div class="list">
+        <h5 style="margin-left: 27px ;">
+            June weekend list
+        </h5>
+        <ul style="margin-top: -20px; font-size: 10px;">
+            <li>Milk Day</li>
+            <li>Italy Republic Day</li>
+            <li>Bicycle Day</li>
+            <li>Children Victims</li>
+            <li>Environment Day </li> 
+            
+        </ul>
+      </div>
+
+      <div class="games">
+        <h5 style="margin-left: 27px ;">
+            Games
+        </h5>
+        <ul style="margin-top: -20px; font-size: 10px;">
+            <li>Milk Day</li>
+            <li>Italy Republic Day</li>
+            <li>Bicycle Day</li>
+            <li>Children Victims</li>
+            <li>Environment Day </li> 
+            
+        </ul>
+      </div>
+      
+
+      <div class="rightgames">
+        <h5 style="margin-left: 27px ;">
+            June weekend list
+        </h5>
+        <ul style="margin-top: -20px; font-size: 10px;">
+            <li>Milk Day</li>
+            <li>Italy Republic Day</li>
+            <li>Bicycle Day</li>
+            <li>Children Victims</li>
+            <li>Environment Day </li> 
+            
+        </ul>
+      </div>
+
+      <div class="rightlist">
+        <h5 style="margin-left: 27px ;">
+            Games
+        </h5>
+        <ul style="margin-top: -20px; font-size: 10px;">
+            <li>Milk Day</li>
+            <li>Italy Republic Day</li>
+            <li>Bicycle Day</li>
+            <li>Children Victims</li>
+            <li>Environment Day </li> 
+            
+        </ul>
+      </div>
+      <div class="photo">
+        <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+        <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+        <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+        <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+        <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+        <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+        </div>
+
+        <div class="photo2">
+            <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+            <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+            <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+            <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+            <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+            <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+            </div>
+            <div class="photo3">
+                <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+                <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+                <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+                <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+                <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+                <div class="item"><img src="22.jpeg" style="height:100%; width:100%;"></div>
+                </div>
+
+        </div>
+        
+        <h5 style="margin: 5px; margin-left: 101px; margin-top: -18px;">Games</h5>
+        <div class="footer" >
+            <h5 style="margin: 0px;">Board Games &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disc Games</h5>
+            <ul style="margin: 0px; margin-left: -20px;" >
+            <li class="trying">Chess</li>
+            <li class="trying">ludo</li>
+            <li class="trying">carrom Board</li>
+            <li class="trying">goose</li>
+            <li class="trying">catan</li>
+            <li class="trying">Chess</li>
+            <li class="trying">ludo</li>
+           </ul>
+           <ul style="margin: -90px; margin-left: 139px;" >
+            <li class="trying">Chess</li>
+            <li class="trying">ludo</li>
+            <li class="trying">carrom Board</li>
+            <li class="trying">goose</li>
+            <li class="trying">catan</li>
+            <li class="trying">Chess</li>
+            <li class="trying">ludo</li>
+           </ul>
+        </div>
+
+    </div>
+    <h5 style="    position: absolute;
+    margin: 5px;
+    margin-left: 47%;
+    margin-top: -136px;">Games</h5>
+    <div class="footer2">
+        <h5 style="margin: 0px;">Board Games &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disc Games</h5>
+        <ul style="margin: 0px; margin-left: -20px;" >
+        <li class="trying">Chess</li>
+        <li class="trying">ludo</li>
+        <li class="trying">carrom Board</li>
+        <li class="trying">goose</li>
+        <li class="trying">catan</li>
+        <li class="trying">Chess</li>
+        <li class="trying">ludo</li>
+       </ul>
+       <ul style="margin: -90px; margin-left: 139px;" >
+        <li class="trying">Chess</li>
+        <li class="trying">ludo</li>
+        <li class="trying">carrom Board</li>
+        <li class="trying">goose</li>
+        <li class="trying">catan</li>
+        <li class="trying">Chess</li>
+        <li class="trying">ludo</li>
+       </ul>
+    </div>
+</div>
+<h5 style="    position: absolute;
+margin: 5px;
+margin-left: 80%;
+margin-top: -133px;">Games</h5>
+<div  class="footer3">
+    <h5 style="margin: 0px;">Board Games &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disc Games</h5>
+    <ul style="margin: 0px; margin-left: -20px;" >
+    <li class="trying">Chess</li>
+    <li class="trying">ludo</li>
+    <li class="trying">carrom Board</li>
+    <li class="trying">goose</li>
+    <li class="trying">catan</li>
+    <li class="trying">Chess</li>
+    <li class="trying">ludo</li>
+   </ul>
+   <ul style="margin: -90px; margin-left: 139px;" >
+    <li class="trying">Chess</li>
+    <li class="trying">ludo</li>
+    <li class="trying">carrom Board</li>
+    <li class="trying">goose</li>
+    <li class="trying">catan</li>
+    <li class="trying">Chess</li>
+    <li class="trying">ludo</li>
+   </ul>
+   </div>
+<div class="last">
+    <div class="devil"><img src="11.png" style="height: 2.9cm; width: 4.1cm;"></div>
+    <div class="devil"><img src="22.jpeg" style="height:2.9cm; width:4.1cm ;"></div>
+    <div class="devil"><img src="33.jpeg"style="height:2.9cm; width:4.1cm ;"></div>
+    <div class="devil"><img src="44.jpeg"style="height:2.9cm; width:4.1cm ;"></div>
+    <div class="devil"><img src="55.jpeg"style="height:2.9cm; width:4.1cm ;"></div>
+   </div>
+   <div class="last">
+    <div class="devil"><img src="11.png" style="height: 2.9cm; width: 4.1cm;"></div>
+    <div class="devil"><img src="55.jpeg"style="height:2.9cm; width:4.1cm ;"></div>
+    <div class="devil"><img src="22.jpeg" style="height:2.9cm; width:4.1cm ;"></div>
+    <div class="devil"><img src="22.jpeg" style="height:2.9cm; width:4.1cm ;"></div>
+    <div class="devil"><img src="22.jpeg" style="height:2.9cm; width:4.1cm ;"></div>
+   </div>
+   <div class="last">
+    <div class="devil"><img src="22.jpeg" style="height:2.9cm; width:4.1cm ;"></div>
+    <div class="devil"><img src="22.jpeg" style="height:2.9cm; width:4.1cm ;"></div>
+    <div class="devil"><img src="22.jpeg" style="height:2.9cm; width:4.1cm ;"></div>
+    <div class="devil"><img src="22.jpeg" style="height:2.9cm; width:4.1cm ;"></div>
+    <div class="devil"><img src="22.jpeg" style="height:2.9cm; width:4.1cm ;"></div>
+   </div>
+   
+   <div class="last" style="margin: 2px; height: 2cm; width: 100%; border: 1px solid black; background-color: skyblue;">
+    
+   </div>
+  </body>
+</html>
+
+
